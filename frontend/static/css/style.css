@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 800px; 
+    height: 1100px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#answer {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#selectInput {
+    width: 35px;
+    height: 20px;
+    font-size: 12px;
+    padding: 2px;
+}
