@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (selectedIndex < 0 || selectedIndex >= questionsAndAnswers.length) {
             selectedIndex = 0;
         }
+        currentQuestionIndex = selectedIndex;
         document.getElementById('question').innerHTML = questionsAndAnswers[selectedIndex].question;
         document.getElementById('answer').classList.add('hidden');
     }
