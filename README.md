@@ -9,6 +9,7 @@ Aplikacja losuje pytania na egzamin inżynierski na kierunku **Informatyka, spec
 - **HTML** - struktura strony
 - **CSS** - stylizacja
 - **JavaScript** - logika losowania pytań
+- **Node.js**
 
 ## 🌍 Podgląd
 
